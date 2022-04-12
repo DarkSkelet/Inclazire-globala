@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" type="text/css" href="../css/style.css" />
+        <meta name="vewport" content="with=device-width, initial-scale=1.0" />
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+        <title>Incalzirea Globala</title>
+    </head>
+
+    <body>
+        
+        <header>
+            <a href="../index.html">
+                <div class="galerie">
+                Incalzirea Globala
+                <i class="fas fa-globe-americas"></i><i class="fab fa-free-code-camp logo"></i>
+              
+            </a>
+
+            <i id="menu-btn" class="fas fa-bars" onclick="show()"></i>
+
+        </header>
+
+        <div class="page-container">
+
+            <aside id="side-menu">
+                <a href="../index.html">Home</a>
+                <a href="evenimente.html">Informează-te</a>
+                <a href="orar.html">Activități de voluntariat</a>
+                <a href="contacte.html">Contacte</a>
+            </aside>
+
+            <main>
+                <h2 class="title">Contacte</h2>
+
+                <div class="row">
+                    <div class="col-50">
+                        <h3>Contacteaza-ne daca:</h3>
+
+                        <ul class="contact-list">
+                            <li>Doresti sa adaugi un eveniment</li>
+                            <li>Cauti un loc de voluntariat</li>
+                            <li>Ai sugestii/propuneri</li>
+                        </ul>
+
+                    </div>
+
+
+                    <div class="col-50">
+                        <h3>Date de contact:</h3>
+
+                        <ul class="conract-data">
+                        <li><b>Adresa:</b> str. Stefan cel Mare 138</li>   
+                        <li><b>Telefon:</b> 069 852 297</li>
+                        <li><b>Zile de voluntariat</b>Simbata-Duminica</li>                       
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-50">
+                        <iframe class="map" 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3345.0580794686075!2d28.174184665854007!3d45.57826157632494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b6e36cd3cbc84d%3A0xa2b9cd13474b274!2sStrada%20%C8%98tefan%20cel%20Mare%2C%20Slobozia%20Mare%2C%20Moldova!5e0!3m2!1sen!2s!4v1642354380485!5m2!1sen!2s" 
+                        width="600" height="450" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+
+                    <div class="col-50">
+                        <div class="contact-form">
+                            <form>
+                                <h3 class="centered">Lasa un mesaj</h3>
+                                <input type="text" placeholder="Nume" required/>
+                                <input type="email" placeholder="Email" required/>
+                                <textarea rows="3" placeholder="Mesaj" required></textarea>
+                                <input type="submit" value="Transmite">
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+
+            </main>
+
+        </div>
+
+        <script src="../js/main.js"></script>
+    </body>
+
+</html>
